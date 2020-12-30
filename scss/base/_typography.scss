@@ -1,4 +1,27 @@
 /* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+
+* {
+  font-family: 'Lato', sans-serif;
+  color: $tertiary-color;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $background-color;
+}
+
+
+/* ============================================= */
 /*              Typography                       */
 /* ============================================= */
 
@@ -9,7 +32,7 @@
   
   .headline-secondary {
     font-weight: 300;
-    color: #777;
+    color: $tertiary-color;
   }
   
   .link {
