@@ -7,15 +7,15 @@
     @include content-display(block, auto, auto);
     @extend %images-main;
     max-height: 100%;
-  }
+}
   
-  .img-frame {
-    @include content-display(block, auto, auto);
-    @extend %images-main;
-    padding: 13px;
-    border: 1px solid #ccc;
-  }
-  
-  .img-logo {
-    @include content-display(block, auto, auto);
-  }
+.img-frame {
+  @include content-display(block, auto, auto);
+  @extend %images-main;
+  padding: 13px;
+  border: 1px solid #ccc;
+}
+
+.img-logo {
+  @include content-display(block, auto, auto);
+}

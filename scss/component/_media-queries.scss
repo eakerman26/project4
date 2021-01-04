@@ -29,10 +29,9 @@
       justify-content: center;
       margin-top: 0;
       align-items: center;
-    }
-    
-    [class^=col] + [class^=col] {
-      margin-left: 10px;
+        & + & {
+          margin-left: 10px;
+        }
     }
     
     .nav {
@@ -46,15 +45,14 @@
     
     .btn {
       padding: 10px 30px;
-    }
-    
-    .btn + .btn {
-      margin-left: 10px;
+        & + & {
+          margin-left: 10px;
+        }
     }
     
     .logo {
       margin-left: initial;
       margin-right: initial;
     }
-    
+
 }
