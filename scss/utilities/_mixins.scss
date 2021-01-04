@@ -1,6 +1,6 @@
 // Image Mixins
 
-@mixin image-display($display, $margin-left, $margin-right) {
+@mixin content-display($display, $margin-left, $margin-right) {
     display: $display;
     margin-left: $margin-left;
     margin-right: $margin-right;

@@ -3,20 +3,19 @@
 /*              Images                           */
 /* ============================================= */
 
-
 .img-avatar {
-    @include image-display(block, auto, auto);
+    @include content-display(block, auto, auto);
     @extend %images-main;
     max-height: 100%;
   }
   
   .img-frame {
-    @include image-display(block, auto, auto);
+    @include content-display(block, auto, auto);
     @extend %images-main;
     padding: 13px;
     border: 1px solid #ccc;
   }
   
   .img-logo {
-    @include image-display(block, auto, auto);
+    @include content-display(block, auto, auto);
   }
