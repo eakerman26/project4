@@ -5,13 +5,29 @@ $background-color: #FFF;
 // Font Color Variables
 
 $primary-color: #58e1c1;
+$primary-color-light: lighten($primary-color, 15%);
+
 $secondary-color: #51ddfc;
-$tertiary-color: #777;
+$secondary-color-light: lighten($secondary-color, 15%);
+
+$text-color: #777;
+$text-color-light: lighten($text-color, 15%);
 
 // Button Color Variables
 
 $default-color: #51ddfc;
+$default-color-light: lighten($default-color, 15%);
+
 $success-color: #63cc82;
+$success-color-light: lighten($success-color, 15%);
+
 $error-color: #e4757a;
+$error-color-light: lighten($error-color, 15%);
+
 $warning-color: #fd7856;
+$warning-color-light: lighten($warning-color, 15%);
+
 $info-color: #927bc1;
+$info-color-light: lighten($info-color, 15%);
+
+// Breakpoints

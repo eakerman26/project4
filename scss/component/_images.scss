@@ -3,27 +3,20 @@
 /*              Images                           */
 /* ============================================= */
 
+
 .img-avatar {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: 100%; 
+    @include image-display(block, auto, auto);
+    @extend %images-main;
     max-height: 100%;
   }
   
   .img-frame {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    max-width: 100%;
+    @include image-display(block, auto, auto);
+    @extend %images-main;
     padding: 13px;
     border: 1px solid #ccc;
   }
   
   .img-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    @include image-display(block, auto, auto);
   }
