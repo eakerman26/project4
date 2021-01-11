@@ -4,18 +4,22 @@
 /* ============================================= */
 
 .img-avatar {
-    @include content-display(block, auto, auto);
-    @extend %images-main;
-    max-height: 100%;
+  @extend %images-main;
+  @include content-display(block, auto, auto);
+  max-height: 100%;
 }
   
 .img-frame {
-  @include content-display(block, auto, auto);
   @extend %images-main;
+  @include content-display(block, auto, auto);
   padding: 13px;
   border: 1px solid #ccc;
 }
 
 .img-logo {
   @include content-display(block, auto, auto);
+  @media (min-width: 768px) {
+    margin-left: initial;
+    margin-right: initial;
+  }
 }

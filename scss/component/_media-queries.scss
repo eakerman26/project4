@@ -4,18 +4,9 @@
 
 
 @media (min-width: 768px) {
-
-    .container {
-      @include content-display(block, auto, auto);
-      max-width: 1400px;
-    }
     
     .centered {
       @include content-display(block, auto, auto);
-    }
-    
-    .row {
-      flex-direction: row;
     }
 
     @for $i from 1 through 12 {
@@ -23,36 +14,4 @@
         width: 100%/12 * $i;
       }
     }
-
-    [class^=col] {
-      display: flex;
-      justify-content: center;
-      margin-top: 0;
-      align-items: center;
-        & + & {
-          margin-left: 10px;
-        }
-    }
-    
-    .nav {
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-        &-link {
-          flex-basis: 100px;
-        }
-    }
-    
-    .btn {
-      padding: 10px 30px;
-        & + & {
-          margin-left: 10px;
-        }
-    }
-    
-    .logo {
-      margin-left: initial;
-      margin-right: initial;
-    }
-
 }
