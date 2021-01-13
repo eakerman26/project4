@@ -20,6 +20,7 @@
   .centered {
     @media ($mw) {
       @include content-display(block, auto, auto);
+      text-align: center;
     }
   }
 }
