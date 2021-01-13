@@ -26,7 +26,7 @@
     &-warning {
       background-color: $warning-color;
     }
-    @media (min-width: 768px) {
+    @media ($mw) {
       padding: 10px 30px;
       & + & {
         margin-left: 10px;

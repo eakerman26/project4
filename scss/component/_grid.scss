@@ -4,7 +4,7 @@
 
 .container {
   padding: 0 10px;
-  @media (min-width: 768px) {
+  @media ($mw) {
     @include content-display(block, auto, auto);
     max-width: 1400px;
   }
@@ -14,11 +14,11 @@
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
-  @media (min-width: 768px) {
+  @media ($mw) {
     flex-direction: row;
   }
   .centered {
-    @media (min-width: 768px) {
+    @media ($mw) {
       @include content-display(block, auto, auto);
     }
   }
@@ -30,7 +30,7 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-  @media (min-width: 768px) {
+  @media ($mw) {
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -41,7 +41,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media ($mw) {
   @for $i from 1 through 12 {
     .col-#{$i} {
       flex-basis: 100%/12 * $i;

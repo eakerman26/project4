@@ -18,7 +18,7 @@
 
 .img-logo {
   @include content-display(block, auto, auto);
-  @media (min-width: 768px) {
+  @media ($mw) {
     margin-left: initial;
     margin-right: initial;
   }

@@ -22,7 +22,7 @@
         background-color: $primary-color;
       }
     }
-    @media (min-width: 768px) {
+    @media ($mw) {
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
